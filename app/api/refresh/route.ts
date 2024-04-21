@@ -2,6 +2,7 @@ import { serialize } from "cookie";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
+
 // Create a GET request handler
 export async function POST() {
   // Get the refresh token from the client-side cookies

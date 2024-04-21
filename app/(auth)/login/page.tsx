@@ -29,11 +29,10 @@ export default function Login() {
   const [loading, setLoading] = useState(false);
   const handleShowPassword = () => {
     setShowPassword(!showPassword);
-    // Toggle password visibility
   };
 
+
   //  handle submit
-  // handle submit
   const handleSubmit = (values: ValueTypes) => {
     setLoading(true);
     console.log("Submitting values:", values); // Log values
