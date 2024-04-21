@@ -1,0 +1,34 @@
+# Ignore dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Ignore test coverage
+/coverage
+
+# Ignore Next.js build output
+/.next/
+/out/
+
+# Ignore production build output
+/build
+
+# Ignore miscellaneous files
+.DS_Store
+*.pem
+
+# Ignore debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore local environment files
+.env* 
+
+# Ignore Vercel specific files
+.vercel
+
+# Ignore TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
